@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+}
+body {
+  background: rgb(64, 13, 22);
+  color: #f2efeb;
+  background: linear-gradient(90deg, rgba(64, 13, 22, 1) 0%, rgba(140, 22, 54, 1) 35%, rgba(166, 27, 64, 1) 100%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* símbolo do header */
+h1 img {
+  height: 119px;
+  width: 100px;
+}
+
+/* símbolo do header */
+
+/* posicionar botoes do header no "centro" */
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+/* posicionar botoes do header no "centro" */
+
+/* mudar a cor do botao "jogadores convocados" */
+.active {
+  background-color: #f2efeb !important;
+  color: #8c1636 !important;
+}
+
+/* mudar a cor do botao "jogadores convocados" */
+
+/* mudar cor do link "quem é esse jogador?" */
+#cor {
+  color: #f2efeb;
+}
+
+/* mudar cor do link "quem é esse jogador?" */
+
+/* container onde está foto e nome  do jogador */
+section {
+  height: 250px;
+  width: 100%;
+  margin: 0 20px 0 20px;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* container onde está foto e nome  do jogador */
+
+/* imagem do jogador */
+.playerImg img {
+  height: 100%;
+  width: auto;
+  border-radius:  1.078vh;
+  border: #f2efeb solid 1px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* imagem do jogador */
+
+/* nome ao lado da imagem do jogador */
+.name {
+  width: 45%;
+  color: #f2efeb;
+  margin: 10px;
+  font-size: 5vh;
+  font-weight: bold;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* nome ao lado da imagem do jogador */
+
+/* container de informaçoes sobre o jogador  */
+.playerInformation {
+  width: 70%;
+  height: auto;
+  border-radius: 7px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px 0 20px 0;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* container de informaçoes sobre o jogador  */
+
+/* espaçamento do parágrafo e tamanho da fonte das informaçoes sobre os jogadores */
+.playerInformation p {
+  margin: 15px;
+  font-size: 22px;
+}
+
+/* espaçamento do parágrafo e tamanho da fonte das informaçoes sobre os jogadores */
+.valuePlayer {
+  width: 70%;
+  border-radius: 7px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+.valuePlayer img {
+  border-radius: 7px;
+}
+@media(max-width:800px){
+*{
+overflow-x: hidden;
+}
+}

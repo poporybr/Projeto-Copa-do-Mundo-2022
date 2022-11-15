@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: rgb(64,13,22);
+  background: linear-gradient(90deg, rgba(64,13,22,1) 0%, rgba(140,22,54,1) 35%, rgba(166,27,64,1) 100%);
+}
+
+/* Header */
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px 20px;
+}
+.logoCup{
+  width: 100px;
+}
+.titleHeader{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #F2EFEB;
+}
+
+/* BreakLine */
+.breakLine{
+  background-color: #F2EFEB;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.paragraph{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #A61B40;
+  padding-top: 3px;
+}
+
+@media(max-width: 725px){
+  .breakLine{
+    width: 375px;
+  }
+}
+
+/* roleFunction */
+.conteinerFunction{
+  text-align: center;
+}
+.roleFunction{
+  color: #F2EFEB;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Figurinhas */
+
+.figura{
+  width: 170px;
+  transition: 0.4s;
+}
+
+.figura:hover{
+  border: solid 2px white;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.conteinerFiguras{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+/* Ataque */
+
+.ataque{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* button */
+
+.btnTop{
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  position: fixed;
+  bottom:10px;
+  right:10px;
+  border: none;
+  cursor: pointer;
+}
+
+.imgBtn{
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+}
