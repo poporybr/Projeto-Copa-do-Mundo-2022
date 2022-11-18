@@ -51,9 +51,10 @@ header ul {
 /* container onde está foto e nome  do jogador */
 section {
   height: 15.625rem;
-  width: auto;
+  width: 100%;
   margin: 0 20px 0 20px;
   border-radius: 20px;
+  border: solid salmon;
  
 
   display: flex;
