@@ -148,4 +148,9 @@ header{
   width: auto;
   font-size: 26px;
 }
+section{
+  display: flex;
+  flex-direction: column;
+
+}
 }
