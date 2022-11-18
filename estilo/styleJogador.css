@@ -54,11 +54,12 @@ section {
   width: 100%;
   margin: 0 20px 0 20px;
   border-radius: 20px;
-  border: solid salmon;
+ 
  
 
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 
 /* container onde está foto e nome  do jogador */
@@ -73,6 +74,8 @@ section {
   display: flex;
   text-align: center;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 /* imagem do jogador */
